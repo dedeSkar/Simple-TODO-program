@@ -2,11 +2,6 @@
 user_name = ''
 todo_items = []
 
-#to clear the screen
-import os
-def cls():
-    os.system('cls' if os.name=='nt' else 'clear')
-
 #To print out simple string
 def line_break():
     print('|')
